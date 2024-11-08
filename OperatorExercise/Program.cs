@@ -11,7 +11,7 @@
         {
             Console.WriteLine("What is the radius of the circle?");
             double radius = double.Parse(Console.ReadLine());
-            Console.WriteLine($"The area of the circle with a radius of {radius} is {Math.Round(AreaOfCircle(radius), 25 )}");
+            Console.WriteLine($"The area of the circle with a radius of {radius} is {Math.Round(AreaOfCircle(radius), 2 )}");
         }
         static void Main(string[] args)
         {
